@@ -1,0 +1,46 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:r="sap.suite.ui.commons" xmlns:core="sap.ui.core" xmlns:viz.data="sap.viz.ui5.data"
+	xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz="sap.viz.ui5.controls" xmlns:layout="sap.ui.layout">
+	<Dialog id="helloDialog" title="Team Progress" contentWidth="50%">
+		<Toolbar>
+			<content>
+				<ToolbarSpacer/>
+				<ComboBox value="-Choose different Graph-" change="graphItem">
+					<items >
+						<core:Item key="line" text="line" id="g1"/>
+						<core:Item key="bar" text="bar" id="g2"/>
+						<core:Item key="column" text="column" id="g3"/>
+						<core:Item key="pie" text="pie" id="g4"/>
+					</items>
+				</ComboBox>
+			</content>
+		</Toolbar>
+		<r:ChartContainer id="chartContainer" showFullScreen="true" showPersonalization="false" autoAdjustHeight="true"
+			personalizationPress="attachPersonalizationPress" contentChange="attachContentChange" >
+			<r:content>
+				<r:ChartContainerContent icon="sap-icon://line-chart" title="Line Chart">
+					<r:content>
+						<viz:VizFrame id="idVizFrame" height='250px' width="75%" vizType='line' vizProperties="{title:{visible:false}}">
+							<viz:dataset>
+								<viz.data:FlattenedDataset id="idGraph" data="">
+									<viz.data:dimensions>
+										<viz.data:DimensionDefinition name="year" value="{iplData>year}"/>
+									</viz.data:dimensions>
+									<viz.data:measures>
+										<viz.data:MeasureDefinition name="won" value="{iplData>won}"/>
+									</viz.data:measures>
+								</viz.data:FlattenedDataset>
+							</viz:dataset>
+							<viz:feeds>
+								<viz.feeds:FeedItem id='valueAxisFeed' uid="valueAxis" type="Measure" values="won"/>
+								<viz.feeds:FeedItem id='categoryAxisFeed' uid="categoryAxis" type="Dimension" values="year"/>
+							</viz:feeds>
+						</viz:VizFrame>
+					</r:content>
+				</r:ChartContainerContent>
+			</r:content>
+		</r:ChartContainer>
+		<beginButton>
+			<Button text="Close" press="ocClosefrg"/>
+		</beginButton>
+	</Dialog>
+</core:FragmentDefinition>

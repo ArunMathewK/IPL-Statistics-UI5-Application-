@@ -1,0 +1,75 @@
+/* Enter your custom styles here */
+
+.index {
+    background-repeat: no-repeat;
+    background-image: url('https://www.hdwallpapersfreedownload.com/uploads/large/ipl/ipl-t20-2018-trophy-cup-hd-wallpaper.jpg')
+}
+
+.mi {
+    background-repeat: no-repeat;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVsPUUE-2SsatlvVciZslMiJheXl2xPVPlRsMeh5V0tQs99TF')
+}
+
+.bdr {
+    border: 1px solid #cadbeb;
+    background-color: #bbd0e6;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.bdr0 {
+    border: 1px solid #cadbeb;
+    background-color: #bbd0e6;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.bdr:hover {
+    background-color: #eff4f9;
+}
+
+.sapUiTinyMarginBegin:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.img {
+    height: 200px;
+}
+.img:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+.objlist:hover{
+	transform: scale(1.01);
+    transition: transform .5s;
+     border-radius: 20px;
+     
+}
+
+.imga {
+    border-radius: 10px;
+    height: 300px;
+}
+
+.fragmentimage {
+    border-radius: 200px;
+    height: 100px;
+    width: 100px;
+}
+
+.fragmentimag1 {
+    border-radius: 200px;
+    height: 150px;
+    width: 150px;
+}
+
+.fragmenttext {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: georgia;
+}
+
+.toolbar {
+    height: 600px;
+}

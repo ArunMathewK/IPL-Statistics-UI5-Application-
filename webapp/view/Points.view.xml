@@ -1,0 +1,60 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="asg.Assignment-1.controller.Points"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>Ptitle}" showNavButton="true" navButtonPress="back">
+				<content>
+					<Toolbar>
+						<content>
+							<ToolbarSpacer/>
+							<ComboBox value="--2018--" change="sort">
+								<items >
+									<core:Item text="2018" id="i1"></core:Item>
+									<core:Item text="2017" id="i2"></core:Item>
+									<core:Item text="2016" id="i3"></core:Item>
+									<core:Item text="2015" id="i4"></core:Item>
+								</items>
+							</ComboBox>
+						</content>
+					</Toolbar>
+				</content>
+				<content>
+					<Table items="{iplData>/Eighteen}" itemPress="onItemPress" id="table">
+						<columns>
+							<Column  hAlign="Center">
+								<Text text="Team "/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Mat"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Won"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Lost"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Tied"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Pts"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active">
+								<cells>
+									<Text text="{iplData>name}"/>
+									<Text text="{iplData>matches}"/>
+									<Text text="{iplData>won}"/>
+									<Text text="{iplData>loss}"/>
+									<Text text="{iplData>draw}"/>
+									<Text text="{iplData>points}"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

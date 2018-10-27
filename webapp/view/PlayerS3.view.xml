@@ -1,0 +1,95 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="asg.Assignment-1.controller.PlayerS3"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:r="sap.suite.ui.commons"
+	xmlns:viz.data="sap.viz.ui5.data" xmlns:viz.feeds="sap.viz.ui5.controls.common.feeds" xmlns:viz="sap.viz.ui5.controls">
+	<App>
+		<pages>
+			<Page title="{i18n>pProfile}" showNavButton="true" navButtonPress="back" class="sapUiResponsiveContentPadding">
+				<HBox justifyContent="Center" alignItems="Center" alignContent="Center">
+					<Image id="abc22" src="{photo}" class="fragmentimag1"/>
+				</HBox>
+				<HBox justifyContent="Center" alignItems="Center" alignContent="Center">
+					<Text id="names" text="Name: {playerName}" class="fragmenttext"/>
+				</HBox>
+				<HBox justifyContent="Center" alignItems="Center" alignContent="Center">
+					<Text id="status" text="Dest: {dest}" class="fragmenttext"/>
+				</HBox>
+				<IconTabBar id="idIconTabBarMulti" expanded="{device>/isNoPhone}" class="sapUiResponsiveContentPadding">
+					<items>
+						<IconTabFilter text="Batting">
+							<l:Grid defaultSpan="L12 M12 S12" hSpacing="2" width="auto">
+								<f:SimpleForm id="SimpleFormDisplay354" editable="false" layout="ResponsiveGridLayout" labelSpanXL="2" labelSpanL="2" labelSpanM="2"
+									labelSpanS="2" adjustLabelSpan="false" emptySpanXL="1" emptySpanL="1" emptySpanM="1" emptySpanS="1" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+									<f:content>
+										<Label text="Runs"/>
+										<Text text="{runs}"/>
+										<Label text="100s"/>
+										<Text text="{100s}"/>
+										<Label text="50s"/>
+										<Text text="{50s}"/>
+										<Label text="Avg"/>
+										<Text text="{avg}"/>
+									</f:content>
+								</f:SimpleForm>
+							</l:Grid>
+						</IconTabFilter>
+						<IconTabFilter text="Bowling">
+							<l:Grid defaultSpan="L12 M12 S12" hSpacing="2" width="auto">
+								<f:SimpleForm  editable="false" layout="ResponsiveGridLayout" labelSpanXL="1" labelSpanL="1" labelSpanM="1"
+									labelSpanS="3" adjustLabelSpan="false" emptySpanXL="1" emptySpanL="1" emptySpanM="1" emptySpanS="1" columnsXL="1" columnsL="1" columnsM="1"
+									singleContainerFullSize="false">
+								<f:content>
+									<Label text="Wickets"/>
+									<Text text="{wickets}"/>
+									<Label text="Avg"/>
+									<Text text="{avg}"/>
+								</f:content>
+							</f:SimpleForm>
+								</l:Grid>
+						</IconTabFilter>
+						<IconTabFilter text="Status" class="toolbar">
+							<Toolbar>
+								<content>
+									<ToolbarSpacer/>
+									<ComboBox value="-Choose different Graph-" change="graphItem">
+										<items >
+											<core:Item key="line" text="line" id="g1"/>
+											<core:Item key="bar" text="bar" id="g2"/>
+											<core:Item key="column" text="column" id="g3"/>
+											<core:Item key="pie" text="pie" id="g4"/>
+										</items>
+									</ComboBox>
+								</content>
+							</Toolbar>
+							<r:ChartContainer id="chartContainer" personalizationPress="attachPersonalizationPress" contentChange="attachContentChange"
+								title="Player Progress">
+								<r:content>
+									<r:ChartContainerContent icon="sap-icon://line-chart" title="Line Chart">
+										<r:content>
+											<viz:VizFrame id="idVizFrame" height="300px" width="100%" vizType='line' class="toolbar" vizProperties="{title:{visible:false}}">
+												<viz:dataset>
+													<viz.data:FlattenedDataset data=" " id="idtGraph">
+														<viz.data:dimensions>
+															<viz.data:DimensionDefinition name="year" value="{iplData>year}"/>
+														</viz.data:dimensions>
+														<viz.data:measures>
+															<viz.data:MeasureDefinition name="Avg" value="{iplData>avg}"/>
+														</viz.data:measures>
+													</viz.data:FlattenedDataset>
+												</viz:dataset>
+												<viz:feeds>
+													<viz.feeds:FeedItem id='valueAxisFeed' uid="valueAxis" type="Measure" values="Avg"/>
+													<viz.feeds:FeedItem id='categoryAxisFeed' uid="categoryAxis" type="Dimension" values="year"/>
+												</viz:feeds>
+											</viz:VizFrame>
+										</r:content>
+									</r:ChartContainerContent>
+								</r:content>
+							</r:ChartContainer>
+						</IconTabFilter>
+					</items>
+				</IconTabBar>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

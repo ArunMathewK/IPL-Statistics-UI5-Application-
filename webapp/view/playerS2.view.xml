@@ -1,0 +1,41 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="asg.Assignment-1.controller.playerS2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>playersT}" showNavButton="true" navButtonPress="back" class="sapUiResponsiveContentPadding">
+				<headerContent></headerContent>
+				<content>
+					<Bar>
+						<contentLeft>
+							<ComboBox value="select" change="oSort" class="objlist">
+								<items>
+									<!--<core:Item key="playerName" text="Name"/>-->
+									<core:Item key="runs" text="Runs"/>
+									<core:Item key="avg" text="Avg"/>
+									<core:Item key="matches" text="Matches"/>
+								</items>
+							</ComboBox>
+						</contentLeft>
+						<contentRight>
+							<SearchField liveChange="onSearch" class="objlist"/>
+						</contentRight>
+					</Bar>
+					<List id="list1" items="{alias>/Tweenty/2018}" itemPress="pdetails">
+						<items>
+							<ObjectListItem type="Active" icon="{alias>photo}" id="listItem" selected="true" number="Score:{alias>runs}" numberUnit="Matches:{alias>matches}" class="objlist">
+								<firstStatus>
+									<ObjectStatus text="Avg:{alias>avg}" state="Success"/>
+								</firstStatus>
+								<attributes>
+									<ObjectAttribute text="Name:{alias>playerName}"/>
+									<!--text="{path:'alias>/Tweenty/2018/dest', formatter:.formatter.statusText}"-->
+									<ObjectAttribute text="Dest:{alias>dest}"/> 
+								</attributes>
+							</ObjectListItem>
+						</items>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

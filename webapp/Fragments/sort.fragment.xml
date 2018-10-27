@@ -1,0 +1,13 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+	<Dialog id="helloDialog" title="Select one of the following">
+		<RadioButtonGroup  selectedIndex="-1"  >
+			<buttons>
+				<RadioButton id="RB4-1" text="ascending order" select="ascending"  />
+				<RadioButton id="RB4-2" text="descending order" select="descending" />
+			</buttons>
+		</RadioButtonGroup>
+		<!--<!--<beginButton>-->-->
+		<!--<!--	<Button text="OK" />-->-->
+		<!--<!--</beginButton>-->-->
+	</Dialog>
+</core:FragmentDefinition>

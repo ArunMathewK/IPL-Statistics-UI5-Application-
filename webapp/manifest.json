@@ -1,0 +1,179 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"id": "asg.Assignment-1",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"sourceTemplate": {
+			"id": "ui5template.basicSAPUI5ApplicationProject",
+			"version": "1.40.12"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "asg.Assignment-1.view.App",
+			"type": "XML"
+		},
+		"dependencies": {
+			"minUI5Version": "1.30.0",
+			"libs": {
+				"sap.ui.layout": {},
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "asg.Assignment-1.i18n.i18n"
+				}
+			},
+			"iplData": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "ipl.json"
+			},
+			"playerData": {
+				"type": "sap.ui.model.json.JSONModel",
+				"uri": "playersd.json"
+			}
+		},
+		"resources": {
+			"css": [{
+				"uri": "css/style.css"
+			}]
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"async": true,
+				"viewPath": "asg.Assignment-1.view",
+				"controlAggregation": "pages",
+				"controlId": "idAppControl",
+				"clearControlAggregation": false
+			},
+			"routes": [{
+				"name": "Index",
+				"pattern": "",
+				"target": "TargetIndex"
+			}, {
+				"name": "Teams",
+				"pattern": "Teams",
+				"target": "Team"
+			}, {
+				"name": "Points",
+				"pattern": "Point",
+				"target": "Points"
+			}, {
+				"name": "Playrs",
+				"pattern": "Player",
+				"target": "Players"
+			}, {
+				"name": "Playrs1",
+				"pattern": "Player2",
+				"target": "Players2"
+			}, {
+				"name": "Playrs2",
+				"pattern": "Player2/{invoicePath}",
+				"target": "Players2"
+			}, {
+				"name": "Playrs3",
+				"pattern": "Player3/{obj}",
+				"target": "Players3"
+			}],
+			"targets": {
+				"TargetIndex": {
+					"viewType": "XML",
+					"transition": "slide",
+					"clearControlAggregation": false,
+					"viewName": "Index",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "asg.Assignment-1.view",
+					"controlAggregation": "pages",
+					"controlId": "app"
+				},
+				"Team": {
+					"viewType": "XML",
+					"viewName": "Team",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "asg.Assignment-1.view",
+					"controlAggregation": "pages",
+					"controlId": "app",
+					"clearControlAggregation": false
+				},
+				"Players": {
+					"viewType": "XML",
+					"viewName": "PlayerS",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "asg.Assignment-1.view",
+					"controlAggregation": "pages",
+					"controlId": "app",
+					"clearControlAggregation": false
+				},
+				"Points": {
+					"viewType": "XML",
+					"viewName": "Points",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "asg.Assignment-1.view",
+					"controlAggregation": "pages",
+					"controlId": "app",
+					"clearControlAggregation": false
+				},
+				"Players2": {
+					"viewType": "XML",
+					"viewName": "playerS2",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "asg.Assignment-1.view",
+					"controlAggregation": "pages",
+					"controlId": "app",
+					"clearControlAggregation": false
+				},
+				"Players3": {
+					"viewType": "XML",
+					"viewName": "PlayerS3",
+					"routerClass": "sap.m.routing.Router",
+					"async": true,
+					"viewPath": "asg.Assignment-1.view",
+					"controlAggregation": "pages",
+					"controlId": "app",
+					"clearControlAggregation": false
+				}
+			}
+		}
+	}
+}

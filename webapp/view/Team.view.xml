@@ -1,0 +1,50 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="asg.Assignment-1.controller.Team"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:l="sap.ui.layout">
+	<App>
+		<pages>
+			<Page title="{i18n>teamViewTitle}" showNavButton="true" navButtonPress="back" class="sapUiResponsiveContentPadding">
+				<content defaultSpan="L4 M6 S12">
+					<l:VerticalLayout id="containerLayout" width="100%">
+						<l:BlockLayout id="BlockLayout" background="{/selectedBackground}" class="abc">
+							<l:BlockLayoutRow accentCells="Accent1">
+								<l:BlockLayoutCell class="bdr0" id="Accent1" width="4">
+									<Image src="images/ipllogo.jpg" width="100%" class="imga"/>
+								</l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+						</l:BlockLayout>
+						<l:BlockLayout id="BlockLayout1" background="{/selectedBackground}" class="abc" >
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell class="bdr" backgroundColorShade="ShadeB">
+									<Image src="{path:'iplData>/Teams/0/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/1/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/2/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/3/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+							<l:BlockLayoutRow>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/4/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/5/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/6/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+								<l:BlockLayoutCell class="bdr">
+									<Image src="{path:'iplData>/Teams/7/logo'}" width="100%" press="a1" class="img"/>
+								</l:BlockLayoutCell>
+							</l:BlockLayoutRow>
+						</l:BlockLayout>
+					</l:VerticalLayout>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

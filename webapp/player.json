@@ -1,0 +1,1577 @@
+{
+	"players": [{
+			"name": "M.S Dhoni",
+			"team": "CSK",
+			"key":"MSD",
+			"photo":"./images/msd.jpg",
+			"dest": "Batsmen",
+			"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "10",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "11",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2344",
+				"matches": "12",
+				"wickets": "12",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "24342",
+				"matches": "12",
+				"wickets": "14",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Suresh Raina",
+			"key":"SR",
+			"photo":"./images/raina.jpg",
+			"team": "CSK",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Michael Hussey",
+			"key":"MH",
+			"photo":"./images/MichaelHussey.jpg",
+			"team": "CSK",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+
+		}, {
+			"name": "Irfan Pathan",
+			"key":"IF",
+			"photo":"./images/Pathan.jpg",
+			"team": "CSK",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Rahul Sharma",
+			"key":"RS",
+			"photo":"./images/Sharma.jpg",
+			"team": "CSK",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+
+		}, {
+			"name": "Rohit Sharma",
+			"key":"RHS",
+			"team": "MI",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+
+		}, {
+			"name": "Evin Lewis",
+			"key":"EL",
+			"team": "MI",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Suryakumar Yadav",
+			"key":"SY",
+			"team": "MI",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+
+		}, {
+			"name": "Saurabh Tiwary",
+			"key":"ST",
+			"team": "MI",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Hardik Pandya",
+			"key":"HP",
+			"team": "MI",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		},
+
+		{
+			"name": "Virat Kohli",
+			"key":"VK",
+			"team": "RCB",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Mandeep Singh",
+			"key":"MS",
+			"team": "RCB",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Brendon McCullum",
+			"key":"BM",
+			"team": "RCB",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Parthiv Patel",
+			"key":"PP",
+			"team": "RCB",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "AB de Villiers",
+			"key":"ABD",
+			"team": "RCB",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Steve Smith",
+			"key":"SS",
+			"team": "RR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Ajinkya Rahane",
+			"key":"AR",
+			"team": "RR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Rahul Tripathi",
+			"key":"RT",
+			"team": "RR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Rahane",
+			"key":"RAH",
+			"team": "RR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Ben Stokes",
+			"key":"BS",
+			"team": "RR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Tom Curran",
+			"key":"TC",
+			"team": "KKR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Piyush Chawla",
+			"key":"PC",
+			"team": "KKR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Robin Uthappa",
+			"key":"RU",
+			"team": "KKR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Chris Lynn",
+			"key":"CL",
+			"team": "KKR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Dinesh Karthik",
+			"key":"DK",
+			"team": "KKR",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Kane Williamson",
+			"key":"KW",
+			"team": "SH",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "David Warner",
+			"key":"DW",
+			"team": "SH",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Shikhar Dhawan",
+			"key":"SD",
+			"team": "SH",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Manish Pandey",
+			"key":"MP",
+			"team": "SH",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Alex Hales",
+			"key":"AH",
+			"team": "SH",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Gautam Gambhir",
+			"key":"GG",
+			"team": "DD",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Glenn Maxwell",
+			"key":"GH",
+			"team": "DD",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Jason Roy",
+			"key":"JR",
+			"team": "DD",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Daniel Christian",
+			"key":"DC",
+			"team": "DD",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Chris Morris",
+			"key":"CM",
+			"team": "DD",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Yuvraj Singh",
+			"key":"YS",
+			"team": "KXIP",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Chris Gayle",
+			"key":"CG",
+			"team": "KXIP",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "David Miller",
+			"key":"DM",
+			"team": "KXIP",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Manoj Tiwary",
+			"key":"MT",
+			"team": "KXIP",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}, {
+			"name": "Marcus Stoinis",
+			"key":"MCS",
+			"team": "KXIP",
+			"dest": "Batsmen",
+				"year":[{
+				"year":"2018",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+					
+				},{
+					"year":"2017",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2016",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				},{
+					"year":"2015",
+				"avg": "100",
+				"runs": "2322",
+				"matches": "12",
+				"wickets": "0",
+				"100s": "10",
+				"50s": "20"
+				}]
+		}
+
+	]
+
+}

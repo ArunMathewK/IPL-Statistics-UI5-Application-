@@ -1,0 +1,87 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:tnt="sap.tnt" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+	controllerName="asg.Assignment-1.controller.PlayerS" xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>playersT}" showNavButton="true" navButtonPress="back" class="sapUiResponsiveContentPadding">
+				<tnt:ToolHeader height="auto" width="auto" design="Info" style="Standard" class="sapUiTinyMargin">
+					<ToolbarSpacer/>
+					<ComboBox value="Teams" change="sortTeam" class="objlist">
+						<items >
+							<core:Item key="name" text="Chennai" id="t1"/>
+							<core:Item key="name" text="Mumbai" id="t2"/>
+							<core:Item key="name" text="Bangalore" id="t3"/>
+							<core:Item key="name" text="Rajasthan" id="t4"/>
+							<core:Item key="name" text="Kolkatha" id="t5"/>
+							<core:Item key="name" text="HYderabad" id="t6"/>
+							<core:Item key="name" text="Delhi" id="t7"/>
+							<core:Item key="name" text="Panjab" id="t8"/>
+						</items>
+					</ComboBox>
+					<!--<ToolbarSpacer/>-->
+					<ComboBox value="Year" change="sortYear" class="objlist">
+						<items >
+							<core:Item key="year" text="2018" id="y1"/>
+							<core:Item key="year" text="2017" id="y2"/>
+							<!--<core:Item key="year" text="2016" id="y3"/>-->
+							<!--<core:Item key="year" text="2015" id="y4"/>-->
+						</items>
+					</ComboBox>
+					<!--<ToolbarSpacer/>-->
+					<ComboBox value="Data" change="sortData" class="objlist">
+						<items >
+							<core:Item key="runs" text="Runs" id="d1"/>
+							<core:Item key="avg" text="Avg" id="d3"/>
+							<core:Item key="100s" text="100s" id="d4"/>
+						</items>
+					</ComboBox>
+					<Button icon="sap-icon://download" press="onExport" tooltip="Click here to download the table" class="objlist"/>
+				</tnt:ToolHeader>
+				<content>
+					<Table items="{iplData>/player}" itemPress="onItemPress" id="table"  inset="false"  growing="true" growingThreshold="50"
+						alternateRowColors="true" showOverlay="false"  > 
+						<columns >
+							<Column hAlign="Center" >
+								<Text text="Name "/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Teams"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Mathches"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Avg"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Wickets"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="100s"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Runs"/>
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true" vAlign="Middle" hAlign="Center">
+								<Text text="Year"/>
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active" vAlign="Middle"  >
+								<cells >
+									<Text text="{iplData>playerName}" wrapping="true"/>
+									<Text text="{iplData>tname}" wrapping="true"/>
+									<Text text="{iplData>matches}" wrapping="true"/>
+									<Text text="{iplData>avg}" wrapping="true"/>
+									<Text text="{iplData>wickets}" wrapping="true"/>
+									<Text text="{iplData>100s}" wrapping="true"/>
+									<Text text="{iplData>runs}" wrapping="true"/>
+									<Text text="{iplData>year}" wrapping="true"/>
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
